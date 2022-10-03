@@ -50,7 +50,6 @@ public class PrivacyScreenPlugin extends Plugin {
 
     private void addFlags() {
         Window window = getActivity().getWindow();
-        window.addFlags(WindowManager.LayoutParams.FLAG_SECURE);
     }
 
     private void clearFlags() {
